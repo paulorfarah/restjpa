@@ -6,6 +6,7 @@
 package br.udesc.ceavi.dsw.projetorestjpa.dao;
 
 import br.udesc.ceavi.dsw.projetorestjpa.models.Cliente;
+import br.udesc.ceavi.dsw.projetorestjpa.services.JWTAutenticarTokenInterface;
 import javax.annotation.security.RolesAllowed;
 import javax.ws.rs.core.Context;
 import javax.ws.rs.core.UriInfo;
@@ -17,7 +18,9 @@ import javax.ws.rs.POST;
 import javax.ws.rs.Path;
 import javax.ws.rs.PUT;
 import javax.ws.rs.PathParam;
+import javax.ws.rs.QueryParam;
 import javax.ws.rs.core.MediaType;
+import javax.ws.rs.core.Response;
 
 /**
  * REST Web Service
@@ -46,6 +49,7 @@ public class ClientesResource {
     }
     
     @GET  
+    @JWTAutenticarTokenInterface
     @Produces(MediaType.APPLICATION_JSON)
     @Path("/{idCliente}")
     public Cliente getCliente(@PathParam("idCliente") String id) {
@@ -54,10 +58,6 @@ public class ClientesResource {
         return (Cliente)d.ler(Cliente.class, Integer.parseInt(id));
     }
 
-    /**
-     * PUT method for updating or creating an instance of ClientesResource
-     * @param content representation for the resource
-     */
     @PUT
     @Consumes(MediaType.APPLICATION_JSON)
     @Produces(MediaType.APPLICATION_JSON)

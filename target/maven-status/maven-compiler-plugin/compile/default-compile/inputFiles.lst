@@ -1,6 +1,12 @@
-/home/farah/NetBeansProjects/ProjetoRESTJPA/src/main/java/br/udesc/ceavi/dsw/projetorestjpa/services/Aplicacao.java
+/home/farah/NetBeansProjects/ProjetoRESTJPA/src/main/java/br/udesc/ceavi/dsw/projetorestjpa/util/LoggerProducer.java
+/home/farah/NetBeansProjects/ProjetoRESTJPA/src/main/java/br/udesc/ceavi/dsw/projetorestjpa/services/JWTAutenticarTokenFilter.java
 /home/farah/NetBeansProjects/ProjetoRESTJPA/src/main/java/br/udesc/ceavi/dsw/projetorestjpa/dao/ClientesResource.java
+/home/farah/NetBeansProjects/ProjetoRESTJPA/src/main/java/br/udesc/ceavi/dsw/projetorestjpa/util/PasswordUtils.java
 /home/farah/NetBeansProjects/ProjetoRESTJPA/src/main/java/br/udesc/ceavi/dsw/projetorestjpa/dao/ApplicationConfig.java
-/home/farah/NetBeansProjects/ProjetoRESTJPA/src/main/java/br/udesc/ceavi/dsw/projetorestjpa/services/FiltroAutenticacao.java
+/home/farah/NetBeansProjects/ProjetoRESTJPA/src/main/java/br/udesc/ceavi/dsw/projetorestjpa/dao/UsuariosResource.java
+/home/farah/NetBeansProjects/ProjetoRESTJPA/src/main/java/br/udesc/ceavi/dsw/projetorestjpa/util/SimpleKeyGenerator.java
+/home/farah/NetBeansProjects/ProjetoRESTJPA/src/main/java/br/udesc/ceavi/dsw/projetorestjpa/services/JWTAutenticarTokenInterface.java
 /home/farah/NetBeansProjects/ProjetoRESTJPA/src/main/java/br/udesc/ceavi/dsw/projetorestjpa/models/Cliente.java
+/home/farah/NetBeansProjects/ProjetoRESTJPA/src/main/java/br/udesc/ceavi/dsw/projetorestjpa/util/KeyGenerator.java
 /home/farah/NetBeansProjects/ProjetoRESTJPA/src/main/java/br/udesc/ceavi/dsw/projetorestjpa/dao/Dao.java
+/home/farah/NetBeansProjects/ProjetoRESTJPA/src/main/java/br/udesc/ceavi/dsw/projetorestjpa/models/Usuario.java

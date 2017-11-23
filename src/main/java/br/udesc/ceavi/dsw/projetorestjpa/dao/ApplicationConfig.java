@@ -30,6 +30,8 @@ public class ApplicationConfig extends Application {
      */
     private void addRestResourceClasses(Set<Class<?>> resources) {
         resources.add(br.udesc.ceavi.dsw.projetorestjpa.dao.ClientesResource.class);
+        resources.add(br.udesc.ceavi.dsw.projetorestjpa.dao.UsuariosResource.class);
+        resources.add(br.udesc.ceavi.dsw.projetorestjpa.services.JWTAutenticarTokenFilter.class);
     }
     
 }

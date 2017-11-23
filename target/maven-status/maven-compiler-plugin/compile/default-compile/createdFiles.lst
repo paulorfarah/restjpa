@@ -1,0 +1,10 @@
+br/udesc/ceavi/dsw/projetorestjpa/services/JWTAutenticarTokenInterface.class
+br/udesc/ceavi/dsw/projetorestjpa/dao/ApplicationConfig.class
+br/udesc/ceavi/dsw/projetorestjpa/models/Cliente_.class
+br/udesc/ceavi/dsw/projetorestjpa/models/Usuario_.class
+br/udesc/ceavi/dsw/projetorestjpa/services/JWTAutenticarTokenFilter.class
+br/udesc/ceavi/dsw/projetorestjpa/dao/Dao.class
+br/udesc/ceavi/dsw/projetorestjpa/dao/ClientesResource.class
+br/udesc/ceavi/dsw/projetorestjpa/models/Usuario.class
+br/udesc/ceavi/dsw/projetorestjpa/dao/UsuariosResource.class
+br/udesc/ceavi/dsw/projetorestjpa/models/Cliente.class
